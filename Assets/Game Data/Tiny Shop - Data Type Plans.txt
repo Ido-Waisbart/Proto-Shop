@@ -1,0 +1,62 @@
+Tiny Shop - Data Type Plans, Definitions and Descriptions
+
+
+
+
+
+
+
+XP, level, coins and gold are all stored separately of the inventory.
+The inventory item types include:
+	Goods (material, gear and consumables),
+	and Furniture (special items like selling stands, or decorative furniture)
+
+Inventory JSON Format:
+
+{
+	items: [
+		{
+			itemID: "Bowie Knife",
+			quantity: 4
+		},
+		...
+	]
+}
+
+Initial inventory JSON (for a new, fresh player):
+
+{
+	items: [
+		{
+			itemID: "Bowie Knife",
+			quantity: 4
+		}
+	]
+}
+
+
+(Scriptable Objects? And not JSON?)
+Item definition:
+itemID: "Bowie Knife",
+itemCategory: "Good",  // Or Furniture
+itemSubcategory: "Gear",  // Material and consumables, special, plantation, so on...
+itemPrice: 20
+
+
+
+Crafting Recipe definition:
+materialsNeeded: [
+	{itemID: "Iron", quantity: 2}
+],  // May be gears/consumables, similarly to some recipes in Shop Heroes.
+produce: {itemID: "Bowie Knife", quantity: 1},
+craftingTimeInSeconds: 40
+
+
+
+// Might be unlike what I want.
+{
+	itemID: "Bowie Knife"
+	itemCategory: "Good",  // Or Furniture
+	itemSubcategory: "Gear",  // Material and consumables, special, plantation, so on...
+	quantity: 4
+},

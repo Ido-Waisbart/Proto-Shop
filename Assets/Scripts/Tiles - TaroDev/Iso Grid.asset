@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8274641d70a77374e82e9d9bba28084b, type: 3}
+  m_Name: Iso Grid
+  m_EditorClassIdentifier: 
+  nodeBasePrefab: {fileID: 4051507260071934598, guid: 1cbabd45c8e4c984ab9f0a36f822e482, type: 3}
+  _obstacleWeight: 3
+  _gridWidth: 9
+  _gridHeight: 7
+  _manualUnwalkableTiles:
+  - {x: 4, y: 5}
+  - {x: 3, y: 4.5}

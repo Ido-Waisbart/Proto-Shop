@@ -1,0 +1,259 @@
+{
+	"craftingRecipes": [
+		{
+			"materialsNeeded": [
+				{"itemID": "Leather", "quantity": 3},
+				{"itemID": "Pouch", "quantity": 1}
+			],
+			"produce": {"itemID": "Backpack", "quantity": 1},
+			"craftingTimeInSeconds": 40
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 2},
+				{"itemID": "Wood", "quantity": 2}
+			],
+			"produce": {"itemID": "Buckler", "quantity": 1},
+			"craftingTimeInSeconds": 20
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Leather", "quantity": 2}
+			],
+			"produce": {"itemID": "Cloak", "quantity": 1},
+			"craftingTimeInSeconds": 14
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 3},
+				{"itemID": "Leather", "quantity": 1}
+			],
+			"produce": {"itemID": "Gaunlet", "quantity": 1},
+			"craftingTimeInSeconds": 25
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 2},
+				{"itemID": "Gems", "quantity": 1}
+			],
+			"produce": {"itemID": "Gem Chain", "quantity": 1},
+			"craftingTimeInSeconds": 30
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 3}
+			],
+			"produce": {"itemID": "Iron Boots", "quantity": 1},
+			"craftingTimeInSeconds": 25
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 6},
+				{"itemID": "Leather", "quantity": 1}
+			],
+			"produce": {"itemID": "Iron Chestplate", "quantity": 1},
+			"craftingTimeInSeconds": 50
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 4},
+				{"itemID": "Leather", "quantity": 1}
+			],
+			"produce": {"itemID": "Iron Helmet", "quantity": 1},
+			"craftingTimeInSeconds": 40
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 3},
+				{"itemID": "Wood", "quantity": 1},
+				{"itemID": "Leather", "quantity": 1}
+			],
+			"produce": {"itemID": "Iron Shield", "quantity": 1},
+			"craftingTimeInSeconds": 40
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Leather", "quantity": 3}
+			],
+			"produce": {"itemID": "Leather Boots", "quantity": 1},
+			"craftingTimeInSeconds": 30
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Leather", "quantity": 4}
+			],
+			"produce": {"itemID": "Leather Pants", "quantity": 1},
+			"craftingTimeInSeconds": 32
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Leather", "quantity": 5}
+			],
+			"produce": {"itemID": "Leather Shirt", "quantity": 1},
+			"craftingTimeInSeconds": 35
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 3},
+				{"itemID": "Leather", "quantity": 2}
+			],
+			"produce": {"itemID": "Light Chestplate", "quantity": 1},
+			"craftingTimeInSeconds": 35
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 2},
+				{"itemID": "Leather", "quantity": 2}
+			],
+			"produce": {"itemID": "Light Helm", "quantity": 1},
+			"craftingTimeInSeconds": 28
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Ring", "quantity": 1},
+				{"itemID": "Iron", "quantity": 1},
+				{"itemID": "Gems", "quantity": 2}
+			],
+			"produce": {"itemID": "Magic Ring", "quantity": 1},
+			"craftingTimeInSeconds": 45
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Leather", "quantity": 2}
+			],
+			"produce": {"itemID": "Pouch", "quantity": 1},
+			"craftingTimeInSeconds": 15
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Leather", "quantity": 3}
+			],
+			"produce": {"itemID": "Quiver", "quantity": 1},
+			"craftingTimeInSeconds": 18
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 2}
+			],
+			"produce": {"itemID": "Ring", "quantity": 1},
+			"craftingTimeInSeconds": 12
+		},
+		
+		
+		
+		
+		
+		
+		
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 1},
+				{"itemID": "Wood", "quantity": 1}
+			],
+			"produce": {"itemID": "Arrows", "quantity": 2},
+			"craftingTimeInSeconds": 10
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 2},
+				{"itemID": "Wood", "quantity": 1}
+			],
+			"produce": {"itemID": "Axe", "quantity": 1},
+			"craftingTimeInSeconds": 25
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Wood", "quantity": 1},
+				{"itemID": "Threads", "quantity": 1}
+			],
+			"produce": {"itemID": "Bow", "quantity": 1},
+			"craftingTimeInSeconds": 35
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 2}
+			],
+			"produce": {"itemID": "Bowie Knife", "quantity": 1},
+			"craftingTimeInSeconds": 10
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 2}
+			],
+			"produce": {"itemID": "Broadsword", "quantity": 1},
+			"craftingTimeInSeconds": 35
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Wooden Staff", "quantity": 1},
+				{"itemID": "Iron", "quantity": 2},
+				{"itemID": "Gems", "quantity": 2}
+			],
+			"produce": {"itemID": "Crystal Wand", "quantity": 1},
+			"craftingTimeInSeconds": 52
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Axe", "quantity": 1},
+				{"itemID": "Iron", "quantity": 4},
+				{"itemID": "Leather", "quantity": 1}
+			],
+			"produce": {"itemID": "Grand Axe", "quantity": 1},
+			"craftingTimeInSeconds": 55
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 2},
+				{"itemID": "Leather", "quantity": 1},
+				{"itemID": "Wood", "quantity": 1}
+			],
+			"produce": {"itemID": "Hammer", "quantity": 1},
+			"craftingTimeInSeconds": 22
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 1}
+			],
+			"produce": {"itemID": "Hook", "quantity": 1},
+			"craftingTimeInSeconds": 8
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 2},
+				{"itemID": "Leather", "quantity": 1},
+				{"itemID": "Wood", "quantity": 1}
+			],
+			"produce": {"itemID": "Pickaxe", "quantity": 1},
+			"craftingTimeInSeconds": 27
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Iron", "quantity": 2}
+			],
+			"produce": {"itemID": "Shuriken", "quantity": 4},
+			"craftingTimeInSeconds": 25
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Wood", "quantity": 1},
+				{"itemID": "Threads", "quantity": 1}
+			],
+			"produce": {"itemID": "Slingshot", "quantity": 1},
+			"craftingTimeInSeconds": 15
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Wood", "quantity": 2}
+			],
+			"produce": {"itemID": "Wood Club", "quantity": 1},
+			"craftingTimeInSeconds": 15
+		},
+		{
+			"materialsNeeded": [
+				{"itemID": "Wood", "quantity": 2}
+			],
+			"produce": {"itemID": "Wooden Staff", "quantity": 1},
+			"craftingTimeInSeconds": 13
+		}
+	]
+}

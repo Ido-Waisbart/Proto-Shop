@@ -1,0 +1,35 @@
+Unity 2022.3.16f1
+Setup with 2D URP
+
+A shop system, where you can create items out of crafting materials,
+	place them on selling stands,
+	and have customers enter the store to purchase them.
+
+Needs to be:
+	Modular/Reuseable
+	Readable
+	Simplistic (Not a lot of sounds or graphics) (https://game-icons.net/)
+	
+Primary Needs:
+	Scene Transitions
+	Dialogue
+	Modular/Generic Data
+	Money/Purchasing/Selling System
+V	Pathfinding
+V	Isometric Layout
+	State Machine
+
+Primary Tools:
+	Yarn Spinner - Dialogue-related Stuff
+	ScriptableObjects - Data Representation (Items, crafting materials, customers)
+
+Graphics:
+	NPC/Customer Sprites
+	Sold Items
+	Crafting Materials
+	UI Icons and Panels
+	Shop and furniture and background
+
+Sounds:
+	Maybe an SFX or two for juice
+	No music

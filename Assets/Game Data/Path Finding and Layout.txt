@@ -1,0 +1,26 @@
+OPTIONAL Pathfinding issue:
+
+I want to have a tidy way of defining what are the tiles in the scene.
+This may include tiles in a tile grid generator, or manual tiles.
+But, the most natural way to implement a pre-defined set of tiles,
+	is with two data pieces:
+1. The base layout of the room, which is only the floor tiles, excluding NPCs, furnitures and such.
+2. A set of entities: NPCs, furtnirues and such, which is added ON TOP of the previous dataset of the room layout tiles.
+
+Instead of a grid generator, I want set of tiles, each with a position relative to the origin position, (0,0).
+[(0,0), (0,1), (0,2), (1,0), (1,1)]
+These tiles will all be walkable.
+
+Things like walls and other objects that also should belong in the base layout, will currently not be considered.
+
+Then, given that set of tiles, we will have a second set of tiles, defined by a JSON string.
+{
+	tiles: [
+		{pos: [4, 5], tileTypeID: "Seller", tileData: {}},
+		{pos: [2, 3.5], tileTypeID: "Sold Goods Stand", tileData: {
+			goodTypeID: "Bowie Knife",
+			goodQuantity: 4
+		}},
+		{pos: [3, 4.5], tileTypeID: "Cashier Line", tileData: {}}
+	]
+}
